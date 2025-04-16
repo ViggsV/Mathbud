@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A functional calculator"
+    />
+    <title>Mathbud</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script defer src="script.js"></script>
-</head>
-<body>
-<main id="calculatorContainer">
-    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-</main>
-    </body>
+  <body
+    class="bg-gray-100 text-gray-800"
+  >
+
+  <header>
+    <a href="index.html" class="absolute top-4 left-4">
+      <svg
+        class="w-6 h-6 text-gray-600 hover:text-black transition"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3 12l9-9 9 9M4 10v10a1 1 0 001 1h3m10-11v11a1 1 0 001 1h3m-10-1h4"
+        />
+      </svg>
+    </a>
+    <h1 class="text-4xl font-bold text-center p-3 w-screen">
+        Welcome to Mathbud
+      </h1>
+  </header>
+    <main>
+      <div id="calculatorWrapper" >
+      <div id="answerBox" >0</div>
+      <div id="leftBracket" class="calcButton">(</div>
+      <div id="rightBracket" class="calcButton">)</div>
+      <div id="percent" class="calcButton">%</div>
+      <div id="clearEntry" class="calcButton">CE</div>
+      <div id="num7" class="calcButton">7</div>
+      <div id="num8" class="calcButton">8</div>
+      <div id="num9" class="calcButton">9</div>
+      <div id="divide" class="calcButton">/</div>
+      <div id="num4" class="calcButton">4</div>
+      <div id="num5" class="calcButton">5</div>
+      <div id="num6" class="calcButton">6</div>
+      <div id="multiply" class="calcButton">*</div>
+      <div id="num1" class="calcButton">1</div>
+      <div id="num2" class="calcButton">2</div>
+      <div id="num3" class="calcButton">3</div>
+      <div id="subtract" class="calcButton">-</div>
+      <div id="num0" class="calcButton">0</div>
+      <div id="decimal" class="calcButton">.</div>
+      <div id="equals" class="calcButton">=</div>
+      <div id="add" class="calcButton">+</div>
+    </div>
+
+    </main>
+    <footer>
+      <p>
+        &copy; 2025 World <s>Domination</s> Celebration Inc. All rights seized.
+      </p>
+    </footer>
+  </body>
 </html>
