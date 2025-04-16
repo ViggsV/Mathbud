@@ -1,10 +1,9 @@
-# 🤖 Robot Calculator (with Attitude)
+#  Robot Calculator (with Attitude)
 
 A **simple calculator helper bot** powered by math.js, Tailwind CSS, and the legendary **SAM** speech synth from 1982.
 
 This calculator doesn’t just help you crunch numbers — it **talks back**. Make a mistake, and the robot will let you know just how disappointed it is in your math skills.
 
-![screenshot or gif placeholder]
 
 ---
 
@@ -35,13 +34,11 @@ This calculator doesn’t just help you crunch numbers — it **talks back**. Ma
 
 ---
 
-##  Setup
+##  Links
 
-Clone the repo and open `index.html` in your browser.
+To View Visit the GitHub Pages https://viggsv.github.io/Mathbud/
 
-Make sure `samjs.js` is included — it's the standalone version of SAM used for GitHub Pages compatibility.
-
-You don’t need npm or a build step — it’s all pure frontend.
+Repository URL https://github.com/ViggsV/Mathbud.git
 
 ---
 
