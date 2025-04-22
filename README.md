@@ -48,3 +48,16 @@ Repository URL https://github.com/ViggsV/Mathbud.git
 
 ---
 
+##  Potential improvements
+
+- SAM script is used live, app could potentially save memory if all the responses were recorded
+- Add more functions to the calculator
+
+---
+
+##  Developer Notes
+
+- I am using math.js to do the calculations to reduce risks from executing JS script from a string
+
+---
+
