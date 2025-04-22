@@ -1,3 +1,5 @@
+// initialising SAM and setting up his vocal sound
+
 const sam = new SamJs();
 
 sam.voice = {
@@ -7,16 +9,19 @@ sam.voice = {
   mouth: 128,
 };
 
+// selecting HTML elements (calcButtons becomes a NodeList of all elements with class selector .calcButton)
 const answerBox = document.getElementById("answerBox");
 const calcButtons = document.querySelectorAll(".calcButton");
 
+
 let currentExpression = "";
 
+// this function updates the display value
 function updateDisplay(value) {
   answerBox.textContent = value;
 }
 
-// error messages
+// error messages for SAM 
 const errorResponses = [
   "Nice job breaking it, hero.",
   "You are not a good person. You know that, right?",
@@ -33,6 +38,8 @@ const errorResponses = [
   "That is illegal.",
 ];
 
+
+// using the forEach method of the NodeList, loop over calcButton NodeList array and add a click event listener
 calcButtons.forEach((button) => {
   button.addEventListener("click", function () {
     const value = this.textContent;
