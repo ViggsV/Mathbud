@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Share Tech Mono', monospace;
+  
 }
 
 main {
@@ -51,6 +52,7 @@ main {
   border-radius: 6px;
   cursor: pointer;
   transition: background 0.2s ease;
+  user-select: none;
 }
 .calcButton:hover {
   background: #ddd;
@@ -61,6 +63,11 @@ footer {
   padding: 1rem 0;
   font-size: 0.9rem;
   color: #666;
+  user-select: none;
+}
+
+h1 {
+  user-select: none;
 }
 
 @media (max-height: 500px) {
